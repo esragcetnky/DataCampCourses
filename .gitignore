@@ -1,0 +1,8 @@
+*.yml
+.venv/ 
+venv/ 
+.vscode/
+environment
+chromadb_vectordb
+chromdb_rag_example
+models/
