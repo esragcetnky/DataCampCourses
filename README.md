@@ -2,6 +2,13 @@
 
 This repository contains the code I worked on while studying various DataCamp courses. Each folder represents a different course, and within these folders, you'll find the necessary scripts, data, and dependencies to reproduce the projects.
 
+## Certificates
+
+- [Introduction to Network Analysis in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/9578189579175f7bcfc7c4e830bad5462543ff46)
+- [Introduction to Embeddings with the OpenAI API](https://www.datacamp.com/completed/statement-of-accomplishment/course/438991e5c0485a081d71763bd448f80c39249003)
+- [Developing LLM Applications with LangChain](https://www.datacamp.com/completed/statement-of-accomplishment/course/6617b2439bdfe635fc1c53cede9bb13ad2c62784)
+- [Intermediate Network Analysis in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/e59b47cb69928b1ba0195d0141dc0c5bd756567d)
+
 ## Repository Structure
 
 The repository is organized as follows:
