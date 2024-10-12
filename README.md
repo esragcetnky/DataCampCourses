@@ -8,6 +8,7 @@ This repository contains the code I worked on while studying various DataCamp co
 - [Introduction to Embeddings with the OpenAI API](https://www.datacamp.com/completed/statement-of-accomplishment/course/438991e5c0485a081d71763bd448f80c39249003)
 - [Developing LLM Applications with LangChain](https://www.datacamp.com/completed/statement-of-accomplishment/course/6617b2439bdfe635fc1c53cede9bb13ad2c62784)
 - [Intermediate Network Analysis in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/e59b47cb69928b1ba0195d0141dc0c5bd756567d)
+- [Cluster Analysis in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/f31589eec4e9a09dd898f943253f74bf7d7bc611)
 
 ## Repository Structure
 
