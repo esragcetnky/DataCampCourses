@@ -1,6 +1,10 @@
+import pandas as pd
 from transformers import pipeline
 from evaluate import load
-import pandas as pd
+from datasets import Dataset
+
+english = Dataset.from_file("Data/english.arrow")
+
 
 # Create the word error rate metric
 wer = load("wer")

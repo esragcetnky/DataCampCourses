@@ -1,5 +1,10 @@
 from transformers import pipeline
 from evaluate import load
+from datasets import Dataset
+
+example = Dataset.from_file("Data/common_language.arrow")
+
+
 
 # Create an ASR pipeline using Meta's wav2vec model
 meta_asr = pipeline("automatic-speech-recognition", model="facebook/wav2vec2-base-960h")
