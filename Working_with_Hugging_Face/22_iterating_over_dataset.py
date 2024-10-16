@@ -31,5 +31,7 @@ output_df = pd.DataFrame(output)
 metaWER = wer.compute(predictions=output_df["metaPred"], references=output_df["sentence"])
 openWER = wer.compute(predictions=output_df["openPred"], references=output_df["sentence"])
 
+
+print("#####################################################################################")
 # Print the WER
 print(f"The WER for the meta model is {metaWER} and for the open model is {openWER}")
