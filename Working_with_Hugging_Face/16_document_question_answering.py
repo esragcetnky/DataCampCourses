@@ -8,7 +8,7 @@ import torch
 dqa = pipeline(task="document-question-answering", model="impira/layoutlm-document-qa")
 
 # Set the image and question
-image = "invoice-template.png"
+image = "Data/invoice-template.png"
 question = "What do you see in this picture ?"
 
 # Get the answer

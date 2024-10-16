@@ -5,8 +5,8 @@ from PIL import Image
 import torch
 
 
-original_image = Image.open("florence_city.jpg")
-original_image_2 = Image.open("lake_side.jpg")
+original_image = Image.open("Data/florence_city.jpg")
+original_image_2 = Image.open("Data/lake_side.jpg")
 
 processor = AutoImageProcessor.from_pretrained("microsoft/resnet-50")
 model = ResNetForImageClassification.from_pretrained("microsoft/resnet-50")

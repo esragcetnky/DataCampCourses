@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-image = "lake_side.jpg"
+image = "Data/lake_side.jpg"
 question = "What do you see in this picture ?"
 
 # Create pipeline

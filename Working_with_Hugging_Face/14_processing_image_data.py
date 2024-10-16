@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
-original_image = Image.open("florence_city.jpg")
+original_image = Image.open("Data/florence_city.jpg")
 # Create the numpy array
 numpy_image = np.array(original_image)
 
