@@ -15,7 +15,6 @@ sentence = dataset[1]["sentence"]
 # Predict the language
 prediction = classifier(audio)
 
-
 # Extract the sample
 audio_2 = dataset_2[1]["audio"]["array"]
 
@@ -26,9 +25,6 @@ prediction_2 = classifier(audio_2)
 print("################################### Common Language #####################################################")
 print(prediction)
 print(f"Predicted language is '{prediction[0]['label'].upper()}' for the sentence '{sentence}'")
-
-
-
 
 print("################################### Atatürk Voice #####################################################")
 print(prediction_2)
